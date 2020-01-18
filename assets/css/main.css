@@ -1,0 +1,16 @@
+.pizzaBox {
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    padding: 50px;
+    margin: 10px;
+    width: calc(25% - 24px);
+    text-align: center;
+}
+
+.listPizza {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
