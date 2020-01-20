@@ -1,4 +1,9 @@
-.pizzaBox {
+.listPizza {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listPizza div {
     border-color: red;
     border-width: 2px;
     border-style: solid;
@@ -7,10 +12,3 @@
     width: calc(25% - 24px);
     text-align: center;
 }
-
-.listPizza {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-

@@ -16,7 +16,7 @@ const divMaker = text => {
     elChild = document.createElement('div');
     // Give the new div some content
     elChild.innerHTML = text;
-    elChild.classList.add("pizzaBox")
+    // elChild.classList.add("pizzaBox")
     // Jug it into the parent element
     el.prepend(elChild);
 }
